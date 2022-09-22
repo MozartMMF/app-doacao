@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="título"> Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="conteudo animate__animated animate__fadeInLeft">
+    <img
+      class="img-item"
+      src="https://drive.google.com/uc?id=16sL85fCiC5QVJsjgMPoWUTy374Wmlsny"
+      alt="imagem de solidariedade"
+    />
+    <p>Existem pessoas precisando da sua ajuda, saiba abaixo como doar!</p>
+    <ion-card [routerLink]="['/tabs/tab2']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://drive.google.com/uc?id=1beDxDVrPMw9F-liUF9y1Kyf7b0i_fko1"
+          />
+        </ion-thumbnail>
+        <ion-label>Quero Doar</ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card [routerLink]="['/tabs/tab3']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            src="https://drive.google.com/uc?id=1rAoVaWVzRzXbyFiKN33fnmov2XhCzagP"
+          />
+        </ion-thumbnail>
+        <ion-label>Receber Doaçoes</ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+</ion-content>
